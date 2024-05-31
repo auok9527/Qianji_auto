@@ -1,8 +1,7 @@
 name: Release and Sync APK to Coolapk
 
 on:
-  push:
-    tags: true
+  workflow_dispatch:
 
 jobs:
   release:
