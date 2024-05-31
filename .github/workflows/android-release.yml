@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: ./
+      - name: Checkout
+        uses: actions/checkout@v4.1.5
 
       - name: Setup Java environment
         uses: actions/setup-java@v2
